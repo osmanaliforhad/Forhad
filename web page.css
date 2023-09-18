@@ -1,0 +1,209 @@
+button  h2 {
+    color: rgb(2, 1, 1);
+    font-size: 2vw;
+    font-weight: 800;
+}
+button{
+    color: transparent;
+    border: none;
+    background: transparent;
+}
+html body {
+    width: 100%;
+    height: 100%;    
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .main  {
+    width: 100%;
+    height: 100%; 
+    position: relative;  
+}
+.nav-part2 {
+    display: flex;
+}
+.nav {
+height: 100px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 5vw;
+border-bottom: 2px solid #dadada;
+border-color: transparent;
+}
+
+.nav-part2 {
+  align-items: center;
+   text-align: center;
+   gap: 4vw;
+}
+
+.nav h2 {
+    font-size: 1.8vw;
+    font-weight:700;
+}
+.oi {
+    padding:1.1vw 1.9vw;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color:#FF735C;
+}
+.oi a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-size: 1.1vw;
+}
+.nav .a {
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.dropdown {
+    font-size: 1.6vw;
+    display: none;
+}
+.dropdown a {
+    font-size: 20px;
+}
+
+.content {
+    height:607px;
+    width:100% ;
+   display: flex;
+}
+.content .left {
+    height: 100%;
+    width: 50%;
+    padding: 5vw 5vw;
+}
+.left h1 {
+    font-size: 4.6vw;
+    line-height: 4.4vw;
+}
+
+
+.left p {
+    font-size: 1.23vw;
+    font-weight: 600;
+    width: 80%;
+    color: #666;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.content.right{
+    height: 100%;
+    width: 50%;
+}
+.content .left .po a {
+    text-decoration: none;
+    padding:1.3vw 2.1vw;
+    background-color: #FF735C;
+    position: relative;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+   font-weight: 700;
+}
+.po button {
+    background-color: lightseagreen;
+
+}
+
+@media  screen and (max-width: 600px) {
+
+    .dropdown {
+        display: block;
+        border: transparent;
+        position: relative;
+        top: 7px;
+        right: -10px;
+
+    }
+
+    .dropdown i {
+        font-size: 8.0vw;
+        color: #FF735C;
+        
+
+    }
+
+    .dropdown-menul  li a {
+        font-size:4vw;
+    }
+
+    .nav-part2 .a {
+       display: none;
+    }
+
+   .nav h2 {
+   font-size:5.1vw;
+   height: 2vw;
+   color: rgba(0, 0, 0, 0.959);
+   position: relative;
+   right: 10px;
+   font-weight:700;
+   }
+
+   .nav {
+   height: 63px;
+   padding: 0 6vw;
+
+   }
+   .oi  {
+    display: none;
+}
+
+.content {
+    height: 600px;
+    flex-direction: column;
+}
+.content.left{
+    height: 50%;
+    width: 100%;
+}
+.content.right{
+    height: 50%;
+    width: 100%;
+}
+.right img{
+    width: 350px;
+
+    top: 16px;
+    position: relative;
+    right: -20px;
+} 
+.left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 310px;
+    line-height: 40px;
+    
+}
+.left p {
+    font-size: 15px;
+    font-weight: 600;
+    width: 370px;
+    color: #666;
+    line-height: 25px;
+    position: relative;
+    top: -10px;
+    
+}
+.content .left .po a {
+    text-decoration: none;
+    padding:15px 15px 15px 15px;
+    background-color: #FF735C;
+    position: relative;
+    color: aliceblue;
+    top: -3px;
+    border: none;
+    border-radius: 5px;
+   font-weight: 700;
+}
+
+
+
+}

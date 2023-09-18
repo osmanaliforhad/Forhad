@@ -1,0 +1,96 @@
+body{
+    background: url(../pic/deer-mountain-sunset-minimalist-qn5tx0056jv9t8mu.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #010101;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all-in-one {
+    box-shadow: 0 0 10px;
+    border: 2px solid  ;
+    padding: 30px 35px;
+    border-radius: 10px;
+    background: transparent;
+}
+.all-in-one h1{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+.all-in-one .input-box {
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+    position: relative;
+   }
+   .all-in-one input {
+    height: 100%;
+    border-radius: 40px;
+    padding: 20px 95px 20px 20px;
+    outline: none;
+    border: none;
+    border: 2px solid ;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+.all-in-one .btn {
+    width: 100%;
+    height: 10%;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    
+}
+.register-link a {
+    color: #ffffff;
+    font-size: 17px;
+    position: relative;
+    right: -90px;
+    text-decoration: none;
+}
+.input-box i{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: aliceblue;
+}
+.input-box ::placeholder {
+    color:white;
+}
+.register-link1 a {
+    position: relative;
+    color: #ffffff;
+    right: -130px;
+    font-size: 17px;
+    padding: 14px 0px ;
+    text-decoration: none;
+
+}
+h2 {
+    position: relative;
+    top: -310px;
+    right:890px;
+    padding: 5px 5px;
+    color: #ffffff;
+    font-size: 30px;
+}
+button a {
+    text-decoration: none;
+}
+.fill {
+    padding: 5px 5px 5px;
+    background: transparent;
+    border: none;
+}

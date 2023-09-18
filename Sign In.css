@@ -1,0 +1,91 @@
+body {
+ margin: 0;
+ background: url(../pic/wallpapersden.com_cool-red-mountains-4k_1336x768.jpg)no-repeat;
+ display: flex;
+ background-size: cover;
+ align-items: center;
+ padding: 0;
+ text-align: center;
+ height: 100vh;
+justify-content: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.all-in-one{
+    box-shadow: 0 0 10px;
+    padding: 30px 60px 30px 60px;
+    border: 2px solid;
+    border-radius: 30px;
+    background: transparent;
+}
+.all-in-one .input-box input {
+    padding: 25px 80px 25px 30px ;
+    margin: 10px;
+    border-radius: 40px;
+    background: transparent;
+
+}
+.all-in-one .input-box i {
+    position: relative;
+    right:50px;
+    color: black;
+}
+.all-in-one .btn {
+    position: relative;
+    right: 3px;
+    padding: 15px 30px 15px 30px ;
+    font-size: 20px;
+    color: rgb(3, 18, 18);
+    border-radius: 40px;
+    background: transparent;
+}
+
+.all-in-one .input-box ::placeholder {
+    font-size: 20px;
+    color: black;
+}
+h2 {
+    position: relative;
+    top: -310px;
+    right:900px;
+    padding: 5px 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+button a {
+    text-decoration: none;
+}
+.fill {
+    padding: 5px 5px 5px;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+@media  screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+     }
+     .all-in-one{
+        background: transparent;
+        position: relative;
+        left: 75px;
+    }
+    .all-in-one .input-box input {
+        padding: 20px 30px 20px 30px ;
+        margin:5px;
+        border-radius: 40px;
+        background: transparent;
+    
+    }
+}
+
+
+

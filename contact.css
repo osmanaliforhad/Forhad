@@ -1,0 +1,91 @@
+body {
+    background: url('../pic/mountain-landscape-during-day-time.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Contact h1{
+color: rgb(255, 255, 255);
+}
+.Contact .input-box input {
+    padding: 25px 80px 25px 30px ;
+    margin: 10px;
+    border-radius: 40px;
+    background: transparent;
+    border-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Contact .input-box textarea {
+    padding: 25px 80px 25px 30px ;
+    margin: 10px;
+    border-radius: 40px;
+    background: transparent;
+    font-size: 20px;
+    border-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+.Contact .input-box i {
+position: relative;
+right: 40px;
+}
+.k {
+    padding: 25px 30px 25px 30px ;
+    margin: 10px;
+    border-radius: 40px;
+    background: transparent;
+    font-size: 20px;
+    color: beige;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.Contact {
+    box-shadow: 0 0 10px;
+    padding: 30px 60px 30px 60px;
+    border: 2px solid;
+    border-radius: 30px;
+    background: transparent;
+}
+h2 {
+    position: relative;  
+    top: -307px;
+    right:910px;
+    padding: 5px 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+}
+.fill {
+    padding: 5px 5px 5px;
+    background: transparent;
+    border: none;
+}
+.fill a {
+    text-decoration: none;
+}
+.Contact .input-box ::placeholder {
+    font-size: 20px;
+    color: rgb(229, 222, 222);
+}
+@media  screen and (max-width: 600px) {
+    .Contact {
+        box-shadow: 6 6 80px;
+        padding: 90px 90px 90px 90px;
+        border: 2px solid;
+        border-radius: 30px;
+        background-color: antiquewhite;
+    }
+    .Contact h1{
+        color: rgb(38, 1, 1);
+        }
+}
