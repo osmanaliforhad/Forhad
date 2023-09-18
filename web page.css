@@ -107,11 +107,15 @@ border-color: transparent;
     border-radius: 5px;
    font-weight: 700;
 }
-.po button {
+.content .left .po :hover {
     background-color: lightseagreen;
-
+    color: #fffdfd;
 }
 
+.oi:hover{
+    background-color: lightseagreen;
+    color: #fffdfd;
+}
 @media  screen and (max-width: 600px) {
 
     .dropdown {
