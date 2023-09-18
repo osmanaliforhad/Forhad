@@ -133,7 +133,10 @@ border-color: transparent;
         
 
     }
-
+    .oi:hover{
+        background-color: lightseagreen;
+        color: #fffdfd;
+    }
     .dropdown-menul  li a {
         font-size:4vw;
     }
@@ -179,6 +182,10 @@ border-color: transparent;
     position: relative;
     right: -20px;
 } 
+.content .left .po :hover {
+    background-color: lightseagreen;
+    color: #fffdfd;
+}
 .left h1 {
     font-size: 40px;
     font-weight: 700;
