@@ -62,6 +62,7 @@ border-color: transparent;
     color: rgb(0, 0, 0);
     background-color: transparent;
 }
+
 .dropdown {
     font-size: 1.6vw;
     display: none;
@@ -120,17 +121,19 @@ border-color: transparent;
 .left h1 span {
     color: #FF735C;
 }
-.left h1 span:hover {
+.left h1 span:hover{
     color: lightseagreen;
 }
-.nav .a:hover {
+.nav .a:hover{
     color: lightseagreen;
+
 }
 .right img {
     position: relative;
     top: 50px;
     animation: move 2.5s linear infinite;
 }
+
 
 @keyframes move {
     0%{
