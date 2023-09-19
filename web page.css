@@ -125,7 +125,12 @@ border-color: transparent;
     top: 50px;
     animation: move 2.5s linear infinite;
 }
-
+.left h1 span:hover {
+    color: lightseagreen;
+}
+.nav .a:hover {
+    color: lightseagreen;
+}
 @keyframes move {
     0%{
         transform: translate(-20px , 0px);
