@@ -199,11 +199,11 @@ border-color: transparent;
     width: 100%;
 }
 .right img{
-    width: 250px;
+    width: 320px;
 
-    top: 16px;
+    top: 30px;
     position: relative;
-    right: -20px;
+    right: -33px;
 } 
 .content .left .po :hover {
     background-color: lightseagreen;
