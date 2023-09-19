@@ -120,6 +120,23 @@ border-color: transparent;
 .left h1 span {
     color: #FF735C;
 }
+.right img {
+    position: relative;
+    top: 50px;
+    animation: move 2.5s linear infinite;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(-20px , 0px);
+    }
+    50%{
+        transform: translate(0px , -20px);
+    }
+    100%{
+        transform: translate(-20px , 0px);
+    }
+}
 @media  screen and (max-width: 600px) {
 
     .dropdown {
